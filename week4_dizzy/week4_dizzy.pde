@@ -48,7 +48,7 @@ void draw() {
 
   updatePixels();
   if (mousePress) {
-    offset += 1;
+    offset += 0.5;
   }
 }
 
